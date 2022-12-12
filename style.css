@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    margin: 44px 23px 0 76px;
+}
+
+a {
+    margin-right: 23px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989D9C;
+    cursor: pointer;
+}
+
+.button-login {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    background: #665AE1;
+    border-radius: 20.5px;
+    width: 130px;
+    height: 41px;
+    border: none;
+    cursor: pointer;
+
+}
+
+img {
+    position: absolute;
+    width: 568px;
+    height: 500px;
+    margin-top: 217px;
+    margin-left: 125px;
+    display: inline-block;
+
+}
+
+div {
+    display: inline-block;
+    margin-top: 217px;
+    margin-left: 779px;
+
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+    width: 515px;
+
+}
+
+.button-explore {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+    background: #ADFF00;
+    border-radius: 30px;
+    width: 239px;
+    height: 64px;
+    border: none;
+    cursor: pointer;
+    margin-top: 65px;
+    margin-left: 779px;
+}
+
+.button-login:hover {
+    opacity: 0.8;
+}
+
+.button-login:active {
+    opacity: 0.6;
+}
+
+.button-explore:hover {
+    opacity: 0.8;
+}
+
+.button-explore:active {
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 900px) {
+
+
+
+    header {
+        display: none;
+
+    }
+
+    img {
+        position: absolute;
+        width: 354px;
+        height: 317px;
+        margin-left: 14px;
+        margin-top: 149px;
+       
+    }
+
+    div {
+        display: inline-block;
+        margin-top: 490px;
+        margin-left: 64px;
+    }
+
+    h1 {
+
+        width: 263px;
+        height: 52px;
+        font-size: 50px;
+        line-height: 61px;
+
+    }
+
+    p {
+        display: none;
+    }
+
+    h2 {
+        position: absolute;
+        width: 232px;
+        height: 37px;
+        font-size: 30px;
+        line-height: 37px;
+        margin-top: 7px;
+        margin-left: 15px;
+    }
+
+    .button-explore {
+        display: block;
+        margin-left: 76px;
+    }
+
+
+}
