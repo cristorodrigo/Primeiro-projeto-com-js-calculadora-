@@ -14,7 +14,12 @@
 <br>
 <br>
 <h2 align="center">No Desktop</h2>
-
+<br>
+<img src="assets/Desktop (2).png">
+<br>
+<h2 align="center">...e no Mobile!!</h2>
+<br>
+<img src="
 
 
 
